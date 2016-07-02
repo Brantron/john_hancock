@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Brandon Lawrence"]
   spec.email         = ["brandon.lawrence@customink.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{The best Signature Pad gem you will ever find!}
+  spec.description   = %q{This Gem gives you access to a signature pad form helper so you can save touchpad signatures as encoded png data}
+  spec.homepage      = "https://github.com/Brantron/johnhancock"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
