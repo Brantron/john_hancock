@@ -6,8 +6,8 @@ require 'johnhancock/version'
 Gem::Specification.new do |spec|
   spec.name          = "johnhancock"
   spec.version       = Johnhancock::VERSION
-  spec.authors       = ["Brandon Lawrence"]
-  spec.email         = ["brandon.lawrence@customink.com"]
+  spec.authors       = ["Brandon Lawrence", "Ben Miller"]
+  spec.email         = ["bvbrandonbv@gmail.com", "bjmllr@gmail.com"]
 
   spec.summary       = %q{The best Signature Pad gem you will ever find!}
   spec.description   = %q{This Gem gives you access to a signature pad form helper so you can save touchpad signatures as encoded png data}
