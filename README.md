@@ -1,6 +1,8 @@
 # JohnHancock
 [![Build Status](https://travis-ci.org/Brantron/johnhancock.svg)](https://travis-ci.org/Brantron/johnhancock)
 
+Saving signatures has never been easier!
+
 ## Installation
 
 Add this line to your application's Gemfile:
