@@ -17,7 +17,6 @@ module JohnHancock
         tags << hidden_signature_field(attribute)
         tags.join(' ').html_safe
       end
-
     end
   end
 end

@@ -5,6 +5,5 @@ require 'john_hancock/rails/engine'
 
 module JohnHancock
   module Rails
-
   end
 end
