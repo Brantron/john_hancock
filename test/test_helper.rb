@@ -21,8 +21,3 @@ if ActiveSupport::TestCase.respond_to?(:fixture_path=)
   ActionDispatch::IntegrationTest.fixture_path = ActiveSupport::TestCase.fixture_path
   ActiveSupport::TestCase.fixtures :all
 end
-
-
-def create_test_fixture
-  @user = MiniTest::Mock.new
-end
