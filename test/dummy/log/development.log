@@ -1,0 +1,124 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (3.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "signature" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160704010349')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+DEPRECATION WARNING: You did not specify a value for the configuration option `active_support.test_order`. In Rails 5, the default value of this option will change from `:sorted` to `:random`.
+To disable this warning and keep the current behavior, you can add the following line to your `config/environments/test.rb`:
+
+  Rails.application.configure do
+    config.active_support.test_order = :sorted
+  end
+
+Alternatively, you can opt into the future behavior by setting this option to `:random`. (called from test_order at /Users/brandonlawrence/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/activesupport-4.2.6/lib/active_support/test_case.rb:42)
+
+
+Started GET "/" for ::1 at 2016-07-03 23:00:29 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 153ms (Views: 149.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-ac06275b2793f7084b13a5ac470d4636b44ad9cff6bf3cb7d64f41dc7b6d2d85.css?body=1" for ::1 at 2016-07-03 23:00:29 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-03 23:00:29 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-03 23:00:29 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-03 23:00:29 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-03 23:00:29 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-03 23:00:29 -0400
+
+
+Started GET "/" for ::1 at 2016-07-03 23:00:30 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ac06275b2793f7084b13a5ac470d4636b44ad9cff6bf3cb7d64f41dc7b6d2d85.css?body=1" for ::1 at 2016-07-03 23:00:31 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-03 23:00:31 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-03 23:00:31 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-03 23:00:31 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-03 23:00:31 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-03 23:00:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+DEPRECATION WARNING: You did not specify a value for the configuration option `active_support.test_order`. In Rails 5, the default value of this option will change from `:sorted` to `:random`.
+To disable this warning and keep the current behavior, you can add the following line to your `config/environments/test.rb`:
+
+  Rails.application.configure do
+    config.active_support.test_order = :sorted
+  end
+
+Alternatively, you can opt into the future behavior by setting this option to `:random`. (called from test_order at /Users/brandonlawrence/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/activesupport-4.2.6/lib/active_support/test_case.rb:42)
+
+
+Started GET "/" for ::1 at 2016-07-03 23:02:59 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 297ms (Views: 294.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-355d4d15ed38571b26fbfed7b028189be640adb3b85e86e1770663bbbf1ccb40.css?body=1" for ::1 at 2016-07-03 23:02:59 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-03 23:02:59 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-03 23:02:59 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-03 23:02:59 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-03 23:02:59 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-03 23:02:59 -0400
+
+
+Started GET "/" for ::1 at 2016-07-03 23:03:00 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-355d4d15ed38571b26fbfed7b028189be640adb3b85e86e1770663bbbf1ccb40.css?body=1" for ::1 at 2016-07-03 23:03:00 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-03 23:03:00 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-03 23:03:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-03 23:03:00 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-03 23:03:00 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-03 23:03:00 -0400

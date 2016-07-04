@@ -1,0 +1,10 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+
+canvas {
+  width: 20rem;
+  height: 10rem;
+  border: solid 1px black;
+}
