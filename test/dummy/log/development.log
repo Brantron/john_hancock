@@ -122,3 +122,607 @@ Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a321
 
 
 Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-03 23:03:00 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 09:03:05 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 09:04:59 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 156ms (Views: 152.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-355d4d15ed38571b26fbfed7b028189be640adb3b85e86e1770663bbbf1ccb40.css?body=1" for ::1 at 2016-07-04 09:04:59 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 09:04:59 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 09:04:59 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 09:04:59 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 09:04:59 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 09:04:59 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 09:08:13 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 145ms (Views: 141.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-355d4d15ed38571b26fbfed7b028189be640adb3b85e86e1770663bbbf1ccb40.css?body=1" for ::1 at 2016-07-04 09:08:13 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 09:08:13 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 09:08:13 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 09:08:13 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 09:08:13 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 09:08:13 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 09:08:15 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-355d4d15ed38571b26fbfed7b028189be640adb3b85e86e1770663bbbf1ccb40.css?body=1" for ::1 at 2016-07-04 09:08:15 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 09:08:15 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 09:08:15 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 09:08:15 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 09:08:15 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 09:08:15 -0400
+
+
+Started POST "/users" for ::1 at 2016-07-04 09:08:20 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9L6GCO1cTV6O4qF4jH367cG8080a1OQRVKw7JVJgKsFMJgMehh1AE0JtT//x2q76it4de3y0Fj8pLEhfO3Qvzg==", "user"=>{"signature"=>"data:image/png;base64,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"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("signature", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["signature", "data:image/png;base64,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"], ["created_at", "2016-07-04 13:08:20.939674"], ["updated_at", "2016-07-04 13:08:20.939674"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/4
+Completed 302 Found in 7ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/users/4" for ::1 at 2016-07-04 09:08:20 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 18.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 10:25:37 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3c06bb72062ab725bc2b4d695343f640252cacb7318a11a452cf187277af9991.css?body=1" for ::1 at 2016-07-04 10:25:37 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:25:37 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:25:37 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:25:37 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:25:37 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:25:37 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:25:55 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ad278db95c339c3c2c6b2c1781ca9ab29c03d9734d28634a6017713cefa8ba82.css?body=1" for ::1 at 2016-07-04 10:25:55 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:25:55 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:25:55 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:25:55 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:25:55 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:25:55 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:26:06 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-899c34d02a2e2a955e6390d3db93f201b9509275526165cda9d2fcfc13cf6bc7.css?body=1" for ::1 at 2016-07-04 10:26:06 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:26:06 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:26:06 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:26:06 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:26:06 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:26:06 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:26:12 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-880ce8ad1bb09d575f3782fa074e20e35d6c22884218ee46ac031547b1a944e5.css?body=1" for ::1 at 2016-07-04 10:26:12 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:26:12 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:26:12 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:26:12 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:26:12 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:26:12 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:26:20 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-61c9622285a37c5165e4e2004dde8cdab09ae59c529da4bdce478806ff0c9f96.css?body=1" for ::1 at 2016-07-04 10:26:21 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:26:21 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:26:21 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:26:21 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:26:21 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:26:21 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:26:35 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d839c5762bc473e2b39cdc9a0c22888ff8dda2e73a731a2006285a1501725fdc.css?body=1" for ::1 at 2016-07-04 10:26:35 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:26:36 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:26:36 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:26:36 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:26:36 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:26:36 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:26:45 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-44e5333cc65b941671980a0df4da65951f0cbbf1afa5c2649c9cb3adfd4614c1.css?body=1" for ::1 at 2016-07-04 10:26:45 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:26:45 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:26:45 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:26:45 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:26:45 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:26:45 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:27:06 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0f8aff5809d08b6727f5a831e457a457d9553fc5a94215e6f5b9689c97f2a3c2.css?body=1" for ::1 at 2016-07-04 10:27:06 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:27:07 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:27:07 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:27:07 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:27:07 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:27:07 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:28:39 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8e3ecf92344f1718dd937018ba6fb4806246b1c17ae7bc8ac12003ff918258f0.css?body=1" for ::1 at 2016-07-04 10:28:39 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:28:39 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:28:39 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:28:39 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:28:39 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:28:39 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:29:23 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cb49157794d1d2f0677c36af2b3e59858e41e341f5296e518628d2735e80e4e7.css?body=1" for ::1 at 2016-07-04 10:29:23 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:29:23 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:29:23 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:29:23 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:29:23 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:29:23 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:29:37 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0907a574c4d7bc3fe876642e4b7147d1322f0251dbad3e4586088716f3ce9ff3.css?body=1" for ::1 at 2016-07-04 10:29:37 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:29:37 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:29:37 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:29:37 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:29:37 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:29:37 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:30:10 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e3a7d41357f03d279f2dcf44f542fb8fffcdbab915c041f454dfa6d367d192c4.css?body=1" for ::1 at 2016-07-04 10:30:10 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:30:10 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:30:10 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:30:11 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:30:11 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:30:11 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:30:40 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e0945edb6401d260b816a15f8342460795023539b1c8065288f4d27ab38d33a4.css?body=1" for ::1 at 2016-07-04 10:30:40 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:30:40 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:30:40 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:30:40 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:30:40 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:30:40 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:30:57 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fc04d26bf05f8ae46b3708e347fb226d25908c3261376ae0dc4054fa967a3399.css?body=1" for ::1 at 2016-07-04 10:30:57 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:30:57 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:30:57 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:30:57 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:30:57 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:30:57 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:31:10 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1c5a049a193758b5ab197715d78a86255a6cff25788e38591fd22bdd6be0964f.css?body=1" for ::1 at 2016-07-04 10:31:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:31:10 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:31:10 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:31:10 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:31:10 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:31:10 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 10:31:53 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0cf9b8a062381af87aa5fbcbe6e058653d32918e85fed6087b1dd659995e8e83.css?body=1" for ::1 at 2016-07-04 10:31:53 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:31:53 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:31:53 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:31:53 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:31:53 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:31:53 -0400
+
+
+Started POST "/users" for ::1 at 2016-07-04 10:31:55 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sjHe3/RvPgad7ZgyAQg/m/p193SmviuNa4e2T0iDeZYKqVvJny4zS1FidrV8r2uMsRc5wsDe2aMWB8U1IZd8mQ==", "user"=>{"signature"=>"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAEYklEQVR4Xu3UAQkAAAwCwdm/9HI83BLIOdw5AgQIRAQWySkmAQIEzmB5AgIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlACBB1YxAJfjJb2jAAAAAElFTkSuQmCC"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("signature", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["signature", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAEYklEQVR4Xu3UAQkAAAwCwdm/9HI83BLIOdw5AgQIRAQWySkmAQIEzmB5AgIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlAABg+UHCBDICBisTFWCEiBgsPwAAQIZAYOVqUpQAgQMlh8gQCAjYLAyVQlKgIDB8gMECGQEDFamKkEJEDBYfoAAgYyAwcpUJSgBAgbLDxAgkBEwWJmqBCVAwGD5AQIEMgIGK1OVoAQIGCw/QIBARsBgZaoSlACBB1YxAJfjJb2jAAAAAElFTkSuQmCC"], ["created_at", "2016-07-04 14:31:55.657201"], ["updated_at", "2016-07-04 14:31:55.657201"]]
+  [1m[35m (2.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/5
+Completed 302 Found in 4ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/users/5" for ::1 at 2016-07-04 10:31:55 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/users" for ::1 at 2016-07-04 10:31:59 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sjHe3/RvPgad7ZgyAQg/m/p193SmviuNa4e2T0iDeZYKqVvJny4zS1FidrV8r2uMsRc5wsDe2aMWB8U1IZd8mQ==", "user"=>{"signature"=>"data:image/png;base64,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"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("signature", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["signature", "data:image/png;base64,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"], ["created_at", "2016-07-04 14:31:59.911904"], ["updated_at", "2016-07-04 14:31:59.911904"]]
+  [1m[35m (2.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/6
+Completed 302 Found in 5ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/users/6" for ::1 at 2016-07-04 10:31:59 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/6" for ::1 at 2016-07-04 10:32:44 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-f9a8e9e645e0b360aa185d70c1902d018fee8fdf1138358ec7e233a11f3c1855.css?body=1" for ::1 at 2016-07-04 10:32:44 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:32:44 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:32:44 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:32:44 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:32:44 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:32:44 -0400
+
+
+Started POST "/users" for ::1 at 2016-07-04 10:32:55 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sjHe3/RvPgad7ZgyAQg/m/p193SmviuNa4e2T0iDeZYKqVvJny4zS1FidrV8r2uMsRc5wsDe2aMWB8U1IZd8mQ==", "user"=>{"signature"=>"data:image/png;base64,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"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("signature", "created_at", "updated_at") VALUES (?, ?, ?)  [["signature", "data:image/png;base64,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"], ["created_at", "2016-07-04 14:32:55.875562"], ["updated_at", "2016-07-04 14:32:55.875562"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/7
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/users/7" for ::1 at 2016-07-04 10:32:55 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 10:33:18 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f9a8e9e645e0b360aa185d70c1902d018fee8fdf1138358ec7e233a11f3c1855.css?body=1" for ::1 at 2016-07-04 10:33:18 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 10:33:18 -0400
+
+
+Started GET "/assets/signature_pad.self-0d67a4a67248ed57d2cc0b93402593ce4d6a589c0aa20a1408cc7ae1b684c166.js?body=1" for ::1 at 2016-07-04 10:33:18 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 10:33:18 -0400
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-07-04 10:33:18 -0400
+
+
+Started GET "/assets/john_hancock.self-e476f1db8a9876a4eed36e3a38c3c43c35571c6887d28881962790cd17b51212.js?body=1" for ::1 at 2016-07-04 10:33:18 -0400
+
+
+Started POST "/users" for ::1 at 2016-07-04 10:34:02 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sJYBkuZS9yKcPZ4VLpsOoFbjOhIOOWDwLuPf+pQcbVwIDoSEjRP6b1CycJJTPFq3HYH0pGhZkt5TY6yA/QhoUw==", "user"=>{"signature"=>"data:image/png;base64,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"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("signature", "created_at", "updated_at") VALUES (?, ?, ?)  [["signature", "data:image/png;base64,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"], ["created_at", "2016-07-04 14:34:02.588126"], ["updated_at", "2016-07-04 14:34:02.588126"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/8
+Completed 302 Found in 5ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/users/8" for ::1 at 2016-07-04 10:34:02 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 8]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.1ms)

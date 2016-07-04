@@ -31,6 +31,7 @@ Once this is saved, you're free to use it in the view
 ```erb
 <%= image_tag @user.signature %>
 ```
+![Example](example/John_Hancock.gif)
 
 ## Development
 
