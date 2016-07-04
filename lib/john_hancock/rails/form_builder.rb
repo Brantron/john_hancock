@@ -3,12 +3,21 @@ module JohnHancock
     module FormBuilder
       include ActionView::Helpers::TagHelper
 
+      def signature_canvas
+        content_tag(:canvas, nil, id: 'JohnHancock-canvas')
+      end
+
+      def hidden_signature_field(attribute)
+        hidden_field(attribute.to_sym, id: 'JohnHancock-hidden')
+      end
+
       def signature_field(attribute)
         tags = []
-        tags << content_tag(:canvas, nil, class: 'Signature-visable Signature-pad', id: 'JohnHancock-canvas')
-        tags << hidden_field(attribute.to_sym, id: 'JohnHancock-hidden')
-        tags.join(',').html_safe
+        tags << signature_canvas
+        tags << hidden_signature_field(attribute)
+        tags.join(' ').html_safe
       end
+
     end
   end
 end
