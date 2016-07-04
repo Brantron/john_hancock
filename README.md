@@ -1,5 +1,5 @@
 # JohnHancock
-[![Build Status](https://travis-ci.org/Brantron/john_hancock.svg)](https://travis-ci.org/Brantron/john_hancock)
+[![Build Status](https://travis-ci.org/Brantron/johnhancock.svg)](https://travis-ci.org/Brantron/johnhancock)
 
 ## Installation
 
@@ -20,16 +20,18 @@ Or install it yourself as:
 ## Usage
 
 ```erb
-<%= form_for @person do |f| %>
-  <%= f.signature_field :signature %>:
-  <%= f.submit %>
+<%= form_for @user do |f| %>
+    <%= f.signature_field :signature %>
+    <%= f.submit %>
 <% end %>
+
 ```
 Once this is saved, you're free to use it in the view
 
 ```erb
-<%= image_tag @person.signature %>
+<%= image_tag @user.signature %>
 ```
+![Example](example/John_Hancock.gif)
 
 ## Development
 

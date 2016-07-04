@@ -1,11 +1,10 @@
 require 'test_helper'
 
 class JohnHancockTest < Minitest::Test
-  def test_that_it_has_a_version_number
-    refute_nil ::JohnHancock::VERSION
+  def setup
+    create_test_fixture
   end
-
-  def test_it_does_something_useful
-    assert true
+  def test_we_can_test
+    assert_equal true, true
   end
 end

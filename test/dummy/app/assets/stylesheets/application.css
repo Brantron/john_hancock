@@ -1,0 +1,42 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+body {
+  background: #00bcd4;
+  padding-top: 5rem;
+}
+h3 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+canvas {
+  margin: 0 auto;
+  display: block;
+  width: 20rem;
+  height: 10rem;
+  border: solid 3px white;
+}
+input[type="submit"] {
+  margin: 0 auto;
+border: none;
+background: #26a69a;
+color: white;
+border-radius: 2px;
+padding: 1rem 2rem;
+text-transform: uppercase;
+will-change: opacity, transform;
+transition: all .3s ease-out;
+display: block;
+margin: 1rem auto;
+}
+input[type="submit"]:hover {
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border: solid 3px white;
+}
