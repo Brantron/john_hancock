@@ -19,6 +19,9 @@ Or install it yourself as:
 
 ## Usage
 
+```javascript
+//= require john_hancock
+```
 ```erb
 <%= form_for @user do |f| %>
     <%= f.signature_field :signature %>
