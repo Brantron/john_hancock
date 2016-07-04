@@ -1,13 +1,11 @@
 class UsersController < ApplicationController
-
   def new
     @user = User.new
   end
+
   def create
     @user = User.new(user_params)
-    if @user.save
-      redirect_to @user
-    end
+    redirect_to @user if @user.save
   end
 
   def show
@@ -15,8 +13,8 @@ class UsersController < ApplicationController
   end
 
   private
-  
+
   def user_params
-      params.require(:user).permit(:signature)
+    params.require(:user).permit(:signature)
   end
 end

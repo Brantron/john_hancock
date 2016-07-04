@@ -1,8 +1,7 @@
 require 'test_helper_integration'
 
 class JohnHancockIntegrationTest < ActionDispatch::IntegrationTest
-
-  describe "create a form with helper method" do
+  describe 'create a form with helper method' do
     before do
       visit '/users/new'
     end
@@ -15,14 +14,14 @@ class JohnHancockIntegrationTest < ActionDispatch::IntegrationTest
     end
   end
 
-  describe "find image with data attribute" do
+  describe 'find image with data attribute' do
     before do
       visit '/users/new'
     end
     it 'image renders' do
       find('canvas#JohnHancock-canvas').click
       find('input[name="commit"]').click
-      image = find(:xpath, "//img").native.property 'src'
+      image = find(:xpath, '//img').native.property 'src'
       assert image.start_with?('data:image/png;base64')
     end
   end

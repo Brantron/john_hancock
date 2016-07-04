@@ -1,1 +1,1 @@
-User.create(signature: "")
+User.create(signature: '')

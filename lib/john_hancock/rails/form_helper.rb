@@ -1,11 +1,10 @@
 require 'action_view/helpers'
 require 'john_hancock/rails/form_builder'
 
-
 module JohnHancock
   module Rails
     module FormHelper
-      def self.included(base)
+      def self.included(_base)
         ActionView::Helpers::FormBuilder.instance_eval do
           include FormBuilder
         end
