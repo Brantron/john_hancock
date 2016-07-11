@@ -1,5 +1,5 @@
 # JohnHancock
-[![Build Status](https://travis-ci.org/Brantron/johnhancock.svg)](https://travis-ci.org/Brantron/johnhancock)
+[![Build Status](https://travis-ci.org/Brantron/john_hancock.svg)](https://travis-ci.org/Brantron/john_hancock)
 
 Saving signatures has never been easier!
 
