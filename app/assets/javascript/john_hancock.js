@@ -11,5 +11,16 @@ $( document ).ready(function() {
     $(parent_form).submit(function(e) {
       $(hidden_field).val(signaturePad.toDataURL());
     });
+
+    function resizeCanvas() {
+    var ratio =  Math.max(window.devicePixelRatio || 1, 1);
+    canvas.width = canvas.offsetWidth * ratio;
+    canvas.height = canvas.offsetHeight * ratio;
+    canvas.getContext("2d").scale(ratio, ratio);
+    signaturePad.clear(); // otherwise isEmpty() might return incorrect value
+}
+
+    window.addEventListener("resize", resizeCanvas);
+    resizeCanvas();
   }
 })
