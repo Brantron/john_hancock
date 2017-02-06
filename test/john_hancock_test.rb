@@ -13,16 +13,4 @@ class JohnHancockIntegrationTest < ActionDispatch::IntegrationTest
       page.has_css?('#JohnHancock-hidden', visible: false)
     end
   end
-
-  describe 'find image with data attribute' do
-    before do
-      visit '/users/new'
-    end
-    it 'image renders' do
-      find('canvas#JohnHancock-canvas').click
-      find('input[name="commit"]').click
-      image = find(:xpath, '//img').native.property 'src'
-      assert image.start_with?('data:image/png;base64')
-    end
-  end
 end
