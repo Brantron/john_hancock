@@ -1,3 +1,4 @@
+//= require signature_pad
 ;(function($){
   $( document ).ready(function() {
     if(document.getElementById("JohnHancock-canvas")){
