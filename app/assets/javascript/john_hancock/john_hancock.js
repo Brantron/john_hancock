@@ -1,4 +1,4 @@
-;(function($){
+;(function() {
   $( document ).ready(function() {
     if(document.getElementById("JohnHancock-canvas")){
       signaturePad = $("#JohnHancock-canvas")
@@ -12,4 +12,4 @@
       });
     }
   })
-})(jQuery);
+})();
