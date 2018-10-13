@@ -1,3 +1,9 @@
+var passiveIfSupported = false;
+
+try {
+  window.addEventListener("test", null, Object.defineProperty({}, "passive", { get: function() { passiveIfSupported = { passive: true }; } }));
+} catch(err) {}
+
 function Point(x, y, time) {
   this.x = x;
   this.y = y;
@@ -242,8 +248,8 @@ SignaturePad.prototype._handleTouchEvents = function () {
   this._canvas.style.msTouchAction = 'none';
   this._canvas.style.touchAction = 'none';
 
-  this._canvas.addEventListener('touchstart', this._handleTouchStart);
-  this._canvas.addEventListener('touchmove', this._handleTouchMove);
+  this._canvas.addEventListener('touchstart', this._handleTouchStart, passiveIfSupported);
+  this._canvas.addEventListener('touchmove', this._handleTouchMove, passiveIfSupported);
   this._canvas.addEventListener('touchend', this._handleTouchEnd);
 };
 

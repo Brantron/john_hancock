@@ -1,16 +1,16 @@
 //= require signature_pad
-$( document ).ready(function() {
-  if(document.getElementById("JohnHancock-canvas")){
-    var canvas = document.getElementById("JohnHancock-canvas"),
-        hidden_field = document.getElementById("JohnHancock-hidden"),
-        parent_form = $(canvas).closest("form"),
-        signaturePad;
 
-    signaturePad = new SignaturePad(canvas);
+document.addEventListener('DOMContentLoaded', function(){
+  const canvas = document.getElementById("JohnHancock-canvas");
+  const hidden_field = document.getElementById("JohnHancock-hidden");
 
-    $(parent_form).submit(function(e) {
-      $(hidden_field).val(signaturePad.toDataURL());
-    });
+  if (canvas && hidden_field) {
+    const parent_form = canvas.closest("form");
+    const signaturePad = new SignaturePad(canvas);
+
+    parent_form.onsubmit = function() {
+      hidden_field.value = signaturePad.toDataURL()
+    }
 
     function resizeCanvas() {
       var ratio =  Math.max(window.devicePixelRatio || 1, 1);
@@ -20,7 +20,7 @@ $( document ).ready(function() {
       signaturePad.clear();
     }
 
-    window.addEventListener("resize", resizeCanvas);
+    window.addEventListener("resize", resizeCanvas, true);
     resizeCanvas();
   }
-})
+}, false)
