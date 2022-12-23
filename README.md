@@ -19,7 +19,7 @@ Or install it yourself as:
 
     $ gem install john_hancock
 
-## Usage (< Rails 7)
+## Setup (< Rails 7)
 
 With the gem installed, simply include it in the relevant JS manifest
 
@@ -27,7 +27,7 @@ With the gem installed, simply include it in the relevant JS manifest
 //= require john_hancock
 ```
 
-## Usage (Rails 7 and above using Import Maps)
+## Setup (Rails 7 and above using Import Maps)
 
 1. In config/initializers/assets.rb add:
 
@@ -46,6 +46,8 @@ pin "john_hancock", to: 'john_hancock.js', preload: true
 ```javascript
 import "john_hancock"
 ```
+
+## Usage
 
 Then you are free to use it in the view
 
