@@ -19,12 +19,32 @@ Or install it yourself as:
 
     $ gem install john_hancock
 
-## Usage
+## Usage (< Rails 7)
 
 With the gem installed, simply include it in the relevant JS manifest
 
 ```javascript
 //= require john_hancock
+```
+
+## Usage (Rails 7 and above using Import Maps)
+
+1. In config/initializers/assets.rb add:
+
+```ruby
+Rails.application.config.assets.precompile += %w(john_hancock.js)
+```
+
+2. In config/importmap.rb add:
+
+```ruby
+pin "john_hancock", to: 'john_hancock.js', preload: true
+```
+
+3. Lastly, in app/javascript/application.js:
+
+```javascript
+import "john_hancock"
 ```
 
 Then you are free to use it in the view
